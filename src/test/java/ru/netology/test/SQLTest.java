@@ -20,7 +20,7 @@ public class SQLTest {
     }
 
     @BeforeEach
-    void setUp(){ loginPage = open("http://185.119.57.126:9999", LoginPage.class);}
+    void setUp(){ loginPage = open("http://localhost.126:9999", LoginPage.class);}
 
     @Test
     @DisplayName("Should successfully login to dashboard with exist login and password from sut test data")
